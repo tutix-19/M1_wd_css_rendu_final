@@ -1,0 +1,112 @@
+:root{
+  --gap:2em;
+  --gap2:4em;
+  --boxwidth:calc(100vw - var(--gap2));
+  --boxheight:calc(100vh - var(--gap2));
+}
+
+body{
+  scroll-behavior: smooth;
+  background-color: blue;
+    
+}
+
+.wrapper{
+  position: fixed;
+  top: 1em;
+  left: 1em;
+  border: 4px solid red;
+  width: var(--boxwidth);
+  height: var(--boxheight);
+ 
+}
+
+
+.item{
+  border: 2px solid red;
+  background-color: black;
+}
+img{
+  width: 140px;
+  height: 140px;
+}
+
+.Title {
+  width: 140px;
+  height: 140px;
+  position: relative;
+  font-size: xx-large;
+  left: 50%;
+    top: -40%;
+    color: white;
+  
+}
+
+.Ayton {
+  width: 300px;
+height: 300px;
+position: relative;
+bottom: 10%;
+left: 13%;
+z-index: 20;
+}
+.Phoenix {
+  width: 150px;
+  height: 150px;
+  position: relative;
+  left: 0%;
+  bottom: 20%;
+}
+
+
+.Dunk {
+  width: 300px;
+height: 300px;
+bottom: 10%;
+position: relative;
+right: 45%;
+}
+.DunkSansFond {
+  width: 300px;
+height: 300px;
+position: relative;
+bottom: 55%;
+left: 70%;
+}
+.Terrain {
+  width: 400px;
+  height: 200px;
+  position: relative;
+  top: 2%;
+  left: 4%;
+}
+.Lettre {
+width: 120px;
+    height: 120px;
+    top: 50%;
+    left: -90%;
+    position:relative;
+}
+
+#item1{
+  background-image:url(https://compass-ssl.xbox.com/assets/00/0d/000d862c-294b-4ded-bef9-27b1a8f1bd6e.jpg?n=NBA-2K21_GLP-Page-Hero-1084_Mamba-Forever_1920x1080.jpg);
+}
+
+
+
+
+
+img {
+    width: 140px;
+    height: 140px;
+}
+
+#item1{
+  background-image:url(https://compass-ssl.xbox.com/assets/00/0d/000d862c-294b-4ded-bef9-27b1a8f1bd6e.jpg?n=NBA-2K21_GLP-Page-Hero-1084_Mamba-Forever_1920x1080.jpg);
+}
+
+
+
+
+
+

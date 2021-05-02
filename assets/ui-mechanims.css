@@ -1,0 +1,96 @@
+.grid{
+  display: grid;
+  grid-template-columns: repeat(6,var(--boxwidth));
+  grid-template-rows: repeat(5,var(--boxheight));
+  grid-gap: 0.5em;
+  position: absolute;
+  width: calc(6 * var(--boxwidth));
+  height: calc(5 * var(--boxheight));
+  transition: transform 0.8s ease-in-out;
+}
+
+#p1:target ~ .grid{
+  transform: translate3d(calc(-1 * var(--boxwidth)), 0, 0);
+}
+
+#p2:target ~ .grid{
+  transform: translate3d(calc(-2 * var(--boxwidth)), 0, 0);
+}
+#p3:target ~ .grid{
+  transform: translate3d(calc(-3 * var(--boxwidth)), 0, 0);
+}
+#p4:target ~ .grid{
+  transform: translate3d(calc(-4 * var(--boxwidth)), 0, 0);
+}
+#p5:target ~ .grid{
+  transform: translate3d(calc(-5 * var(--boxwidth)), 0, 0);
+}
+#p6:target ~ .grid{
+  transform: translate3d(0, calc(-1 * var(--boxheight)), 0);
+}
+#p7:target ~ .grid{
+  transform: translate3d(calc(-1 * var(--boxwidth)), calc(-1 * var(--boxheight)), 0);
+}
+#p8:target ~ .grid{
+  transform: translate3d(calc(-2 * var(--boxwidth)), calc(-1 * var(--boxheight)), 0);
+}
+#p9:target ~ .grid{
+  transform: translate3d(calc(-3 * var(--boxwidth)), calc(-1 * var(--boxheight)), 0);
+}
+#p10:target ~ .grid{
+  transform: translate3d(calc(-4 * var(--boxwidth)), calc(-1 * var(--boxheight)), 0);
+}
+#p11:target ~ .grid{
+  transform: translate3d(calc(-5 * var(--boxwidth)), calc(-1 * var(--boxheight)), 0);
+}
+#p12:target ~ .grid{
+  transform: translate3d(0, calc(-2 * var(--boxheight)), 0);
+}
+#p13:target ~ .grid{
+  transform: translate3d(calc(-2 * var(--boxwidth)), 0, 0);
+}
+#p14:target ~ .grid{
+  transform: translate3d(calc(-2 * var(--boxwidth)), 0, 0);
+}
+#p15:target ~ .grid{
+  transform: translate3d(calc(-2 * var(--boxwidth)), 0, 0);
+}
+#p16:target ~ .grid{
+  transform: translate3d(calc(-2 * var(--boxwidth)), 0, 0);
+}
+#p17:target ~ .grid{
+  transform: translate3d(calc(-2 * var(--boxwidth)), 0, 0);
+}
+#p18:target ~ .grid{
+  transform: translate3d(calc(-2 * var(--boxwidth)), 0, 0);
+}
+#p19:target ~ .grid{
+  transform: translate3d(calc(-2 * var(--boxwidth)), 0, 0);
+}
+#p20:target ~ .grid{
+  transform: translate3d(calc(-2 * var(--boxwidth)), 0, 0);
+}
+#p21:target ~ .grid{
+  transform: translate3d(calc(-2 * var(--boxwidth)), 0, 0);
+}
+#p22:target ~ .grid{
+  transform: translate3d(calc(-2 * var(--boxwidth)), 0, 0);
+}
+#p23:target ~ .grid{
+  transform: translate3d(calc(-2 * var(--boxwidth)), 0, 0);
+}
+#p24:target ~ .grid{
+  transform: translate3d(calc(-2 * var(--boxwidth)), 0, 0);
+}
+#p25:target ~ .grid{
+  transform: translate3d(calc(-2 * var(--boxwidth)), 0, 0);
+}
+#p26:target ~ .grid{
+  transform: translate3d(calc(-2 * var(--boxwidth)), 0, 0);
+}
+
+.proxy-anchor{
+  opacity: 0;
+  position: absolute;
+  z-index: -1;
+}
